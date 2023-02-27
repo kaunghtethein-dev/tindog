@@ -131,3 +131,45 @@ img.press-logo{
 .price-col {
     padding: 3% 2%;
 }
+
+section#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 3% 15% 3% 15%;
+}
+
+h3#cta-title{
+    font-family: 'Montserrat';
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.cta-button {
+    margin: 7% 3% 10% 0;
+}
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 5% 0 5% 0;
+}
+
+.social-icons-div{
+   margin-bottom: 2%;
+}
+
+.social-icon{
+    padding-right: 15px;
+}
+
+@media (max-width:1028px){
+    section#title{
+        text-align: center;
+    }
+    img.title-image {
+        position: static;
+        transform: rotate(0); /* 0 means rotate back to original*/ 
+    }
+}
